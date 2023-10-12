@@ -1,0 +1,19 @@
+All your python pull requests will be considered but more weightage will be given to solving **issues** given in this repository.
+
+  1. Your PR/MRs must be within the bounds of Hacktoberfest.
+    * Your PR/MRs must be created between October 1 and October 31 (in any time zone, UTC-12 thru UTC+14).
+    * Your PR/MRs must be made to a public, unarchived repository.
+
+  2. Repos that go against Hacktoberfest’s values will be excluded from qualification and PR/MRs made to those repos won’t count.
+
+  3. Your PR/MRs must not be spammy.
+
+  4. Your PR/MRs must be in a repo tagged with the “hacktoberfest” topic, or have the “hacktoberfest-accepted” label.
+
+  5. Your PR/MRs must not be labeled as “invalid”.
+
+  6. Your PR/MRs must be merged, have the “hacktoberfest-accepted” label, or have an overall approving review.
+
+  7. Once your PR/MRs pass all the checks above, it will be accepted for Hacktoberfest after the seven day review period.
+
+# Make 4 succesful pull/merge requests and win digital reward kit. All the best!
