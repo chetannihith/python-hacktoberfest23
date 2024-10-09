@@ -1,0 +1,131 @@
+/* General typography */
+
+body {
+  font-family: Arimo, sans-serif;
+  margin: 8px 7.5vw;
+  height: 100vh;
+  background-image: radial-gradient(circle, rgb(238, 174, 202) 0%, rgb(148, 187, 233) 100%);
+}
+
+h1 {
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+h4 {
+  font-size: 1rem;
+  margin: 0;
+}
+
+h5 {
+  font-size: 0.9rem;
+  font-weight: lighter;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+/* Site layout */
+
+/* This is the basic box that the main part of the page goes into */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  background-color: #f6f6ef;
+
+}
+
+.stories-container{
+  height: calc(100vh - 100px);
+  overflow: scroll;
+}
+
+.hidden {
+  display: none;
+}
+
+
+/* Forms */
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 8px 18px 0;
+}
+
+form > * {
+  margin: 10px 0;
+}
+
+form label {
+  font-size: 0.9rem;
+  font-weight: 700;
+  display: inline-block;
+  width: 3.5rem;
+  text-align: right;
+  margin-right: 5px;
+}
+
+form input {
+  font-size: 0.8rem;
+  border: none;
+  border-radius: 2px;
+  padding: 8px;
+  width: 300px;
+  box-shadow: 0 0 3px 1px lightgray;
+}
+
+form input:focus {
+  outline: none;
+  box-shadow: 0 0 4px 1px darkgray;
+}
+
+form > button {
+  width: 4rem;
+  margin: 5px 0 15px 65px;
+  border: none;
+  border-radius: 4px;
+  padding: 8px;
+  font-size: 0.85rem;
+  background-color: lightslategray;
+  color: white;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+form > button:hover {
+  background-color: dimgray;
+}
+
+form > hr {
+  margin: 0;
+  border: 1px solid lightgray;
+}
+
+.login-input label {
+  width: 70px;
+}
+
+
+/* responsive queries for tightening things up for mobile. */
+
+@media screen and (max-width: 576px) {
+  body {
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  body {
+    max-width: 900px;
+    margin: 8px auto;
+  }
+}
